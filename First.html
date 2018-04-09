@@ -9,7 +9,8 @@
 			background-color: #555;
 			color: white;
 			position: fixed;
-			margin: 0 auto;
+			margin: -10px auto;
+			margin-left: -10px;
 			top: 5px;
 		}
 		.icon a
@@ -41,7 +42,12 @@
 			margin-left: 530px;
 			border-radius: 65%;
 		}
-
+        ::placeholder
+        {
+        	color: black;
+        	text-align: left;
+        	padding: 0 0 400px 0;
+        }
 	</style>
 </head>
 <body class="main">
@@ -49,8 +55,10 @@
 		<div class="icon">
 		<a href="/home/navyug/Documents/First.html" id="white">Intro</a>
 		<a href="#about">About me</a>
-		<a href="#contact">Contact</a>
+		<a href="#contact">Video</a>
 		<a href="/home/navyug/Documents/form.html">Form</a>
+		<input type="text" name="search" style="margin-top: 13px;margin-right: 75px;float: right" placeholder="search">
+	
 	</div>
 	</nav>
 	<br>
@@ -81,14 +89,24 @@
            <div id="contact">
           <h1 style="margin-left: 25px; color: #7fffd4;
 	       font-style: italic;
-	       text-align: center;"><u>Contact:</u></h1>
+	       text-align: center;"><u>Videos:</u></h1>
            <br>
            <br>
-	       <p style="font-size: 200%;font-family: sans-serif;font-style: italic;text-align: center;">If you want to get in touch, email is generally the best way. You can email me <br><br>directly at the addres in the link and I'll do my best to get back to you ASAP.
-	       	<br><br>
-
-	       </p>
-	       Linkedin:
+	        <video width="520" height="320" controls >
+  <source src="/home/navyug/Downloads/Spider-Man- Homecoming - Your Friendly Neighborhood Spider-Man.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video> 
+            <video width="520" height="320" controls style="margin-left: 170px;" >
+  <source src="/home/navyug/Downloads/Marvel Studios' Avengers- Infinity War -- Chant TV Spot.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video> 
+ <video width="720" height="360" controls style="margin-left: 15px;display: block;" >
+  <source src="/home/navyug/Downloads/Marvel Studios' Avengers- Infinity War - Official Trailer.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video> 
 	       </div>
 </body>
 </Html>
