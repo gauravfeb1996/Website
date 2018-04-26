@@ -51,8 +51,8 @@ p#ellips{
 }
 .mbox
 {
-	margin-top: -29.5%;
-	margin-left: 35%;
+	margin-top: -28.4%;
+	margin-left: 38%;
 	width: 28.6vw;
 	height: 25.6vw;
 	background-color: #ffffff;
@@ -103,10 +103,4 @@ p#UnAssign
 	    line-height: 33.87%;/* Approximation due to font substitution */
 	    text-align: left;
 	    margin-left: 8%;
-}
-#num
-{
-	position: absolute;
-	width: 2.5vw;
-	height: 2vw;
 }
