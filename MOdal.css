@@ -244,6 +244,7 @@ button#d1
 {
     opacity: 1;
     pointer-events: auto;
+        z-index: 1;
 }
 
 .modal_container > div
@@ -262,12 +263,13 @@ button#d1
     min-height: 35.514219830899307vw;
     margin: auto;
     position: absolute;
-    margin-top:  7.217755572636434vw;
+    margin-top:  7.117755572636434vw;
     margin-left: 32.6vw;
     margin-right: 46.6vw;
     background: white;
     padding: 20px;
     box-shadow: 0px 1px 11px 0 black;
+
 }
 .close
 {
